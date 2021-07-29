@@ -1,0 +1,115 @@
+.fluid__image-container div{
+    z-index: 99;
+}
+
+.good-section {
+    background-color: rgb(231, 238, 238);
+    padding-top: 10px;
+}
+
+.good-info {
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+.good-info i  {
+    color: rgb(207, 207, 24);
+}
+
+.good-info .active {
+    font-weight: 600 !important;
+}
+
+.thums-up {
+    float: right;
+    z-index: -1;
+    color: gray;
+    font-size: 15px;
+
+}
+
+.thums-up i {
+    color: gray;
+    margin-left: 5px;
+}
+
+.rating {
+    color: gray;
+    font-size: 12px;
+}
+
+.comments {
+    float: right;
+    font-size: 12px;
+    color: gray; 
+}
+
+.deliver{
+    float: right;
+    color: rgb(87, 87, 87);
+}
+
+.avaliable {
+    color: rgb(87, 87, 87);
+}
+
+.color {
+    font-size: 17px;
+}
+
+.good-info h5 {
+    display: inline-block;
+}
+
+.color-bar {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  float: right;
+  margin-left:6px ;
+  cursor: pointer;
+}
+
+.color-black {
+    background-color: black;
+}
+.color-brown {
+    background-color: brown;
+}
+.color-blue {
+    background-color: navy;
+}
+.color-silver {
+    background-color: rgb(170, 168, 168);
+}
+.color-purple {
+    background-color: blueviolet;
+}
+.detail-price {
+    float: right;
+    font-size: 22px;
+}
+
+.hr {
+    z-index: -1 !important;
+}
+
+.price-section{
+    margin-bottom: 17px;
+}
+
+.about-detail {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.about-detail a {
+    text-decoration: none;
+    color: #59636d;
+}
+
+.related {
+    margin-left: 15px;
+    margin-top: 25px;   
+}

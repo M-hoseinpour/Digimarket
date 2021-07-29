@@ -1,0 +1,84 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.login-section h1{
+    text-align: center;
+    color: rgb(163, 80, 80);
+}
+
+.login-section h1:hover {
+    color: rgb(250, 80, 80)
+}
+
+.login-section small{
+    font-size: 13px !important;
+}
+
+.login-section form {
+    margin-right: auto;
+    width: 70%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.login-section {
+    position: relative;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.login-section h6 {
+    margin-top: 15px;
+}
+
+.login-section button {
+    margin-top: 15px;
+    border-radius: 5px;
+    border-color: rgb(161, 219, 45);
+    background-color: rgb(165, 224, 45);
+    padding-bottom: 5px;
+}
+
+.login-section i {
+    position: absolute;
+    top: 200px;
+    right: 80px;
+}
+
+.login-section .create {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 997px) {
+    .login-section i {
+        top: 192px;
+    }
+}
+
+@media only screen and (min-width: 399px) and (max-width: 768px) {
+    .login-section i {
+        top: 185px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .login-section i {
+        top: 183px;
+        right: 67px;
+    }
+
+    .login-section {
+        border: none;
+    }
+}

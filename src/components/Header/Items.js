@@ -74,12 +74,12 @@ class Items extends React.Component {
                 </div>
                 
                     <Nav>
-                        <Nav.Link href="#categories" className='menu-btn'> <a onClick={() => this.handle()}><i class="fas fa-bars"></i>Categories </a></Nav.Link>
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Top Sell</Nav.Link>
-                        <Nav.Link href="#pricing">Customer Service</Nav.Link>
-                        <Nav.Link href="#pricing">Sell your product</Nav.Link>
-                        <Nav.Link href="#pricing">Gift Cards</Nav.Link>
+                        <Nav.Link id='nav-btn'  href="#categories" className='menu-btn'> <a onClick={() => this.handle()}><i class="fas fa-bars"></i>Categories </a></Nav.Link>
+                        <Nav.Link id='nav-btn' href="#home">Home</Nav.Link>
+                        <Nav.Link id='nav-btn' href="#features">Top Sell</Nav.Link>
+                        <Nav.Link id='nav-btn' href="#pricing">Customer Service</Nav.Link>
+                        <Nav.Link id='nav-btn' href="#pricing">Sell your product</Nav.Link>
+                        <Nav.Link id='nav-btn' href="#pricing">Gift Cards</Nav.Link>
                         <NavDropdown title="Help" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Returns and Refunds</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Get Product Help</NavDropdown.Item>

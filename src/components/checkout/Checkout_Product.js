@@ -80,9 +80,11 @@ function Checkout_Product(props) {
                 <p>Price : ${props.price}</p>
                 <div className='checkbox_buttons'>
                     <p>Quantity :</p>
-                    <Button onClick={() => {setQuantity(quantity + 1); buying && IncreaseBasket(); }}>+</Button>
-                    {quantity}
-                    <Button onClick={() => {setQuantity(quantity > 1? quantity - 1: quantity); quantity > 1 && (buying && decreaseBasket())}}>-</Button>
+                    <div className='checkout-btns'>
+                        <Button onClick={() => {setQuantity(quantity + 1); buying && IncreaseBasket(); }}>+</Button>
+                        {quantity}
+                        <Button onClick={() => {setQuantity(quantity > 1? quantity - 1: quantity); quantity > 1 && (buying && decreaseBasket())}}>-</Button>
+                    </div>
                 </div>
                 <small>{quantity > 1 && 'Subtotal : $'+ props.price * quantity } </small>
                 <div className='checkout_items'>

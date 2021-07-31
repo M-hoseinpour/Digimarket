@@ -276,6 +276,10 @@
 	line-height: 26px;
 }
 
+.newslatter-item {
+    margin-bottom: 5px;
+}
+
 .newslatter-item form {
     display: flex;
 }

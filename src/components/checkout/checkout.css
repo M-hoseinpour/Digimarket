@@ -119,3 +119,83 @@
     background-color: #ffd106;
 }
 
+
+@media only screen and (min-width: 768px) and (max-width: 997px) {
+    h5 {
+        font-size: small;
+    }
+
+    .total small {
+        font-size: 12px
+    }
+
+    .proceed-btn button {
+        font-size: 14px;
+    }
+
+    .checkout_items a {
+        margin-right: 6px;
+        font-size: 9px;
+    }
+}
+
+@media only screen and (min-width: 399px) and (max-width: 768px) {
+    .checkout_items {
+        flex-direction: column;
+    }
+
+    .checkout_items a {
+        margin-right: 0px;
+        font-size: 11px;
+    }
+
+    .checkbox_info {
+        margin-left: 8px;
+    }
+
+    .Checkout_Product form {
+        display: none;
+    }
+    .checkbox_buttons p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .checkout_items {
+        flex-direction: column;
+    }
+
+    .checkout_items a {
+        margin-right: 0px;
+        font-size: 11px;
+        display: none;
+    }
+
+    .checkbox_info {
+        margin-left: 8px;
+    }
+    .Checkout_Product form {
+        display: none;
+    }
+
+    .checkbox_buttons {
+        flex-direction: column;
+    }
+
+    .checkbox_buttons p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .Checkout_Product button {
+        margin-right: 2px;
+        margin-left: 3px;
+        width: 19px;
+        height: 27px
+    }
+    .Checkout_Product img {
+        width: 150px;
+        height: 150px;
+    }
+}

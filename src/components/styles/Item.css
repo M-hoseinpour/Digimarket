@@ -6,7 +6,7 @@
     height: 100vh;
     background-color: rgb(231, 238, 238);
     overflow-x: hidden;
-    z-index: 99;
+    z-index: 999;
     transition: all 0.45s ease;
     overflow-y: auto;
     white-space: nowrap;
@@ -20,14 +20,14 @@
     text-decoration: none;
 }
 
-.nav-link:after {
+#nav-btn:after {
     display:block;
     content: '';
     border-bottom: solid 1.5px #ee2525;  
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
 }
-.nav-link:hover:after {
+#nav-btn:hover:after {
     transform: scaleX(1);
 }
 

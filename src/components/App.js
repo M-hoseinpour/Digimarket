@@ -49,7 +49,7 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
-          <Route exact path="/Digimarket">
+          <Route exact path="/">
             <Header />
             <Main />
           </Route>
